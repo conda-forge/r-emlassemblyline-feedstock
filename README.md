@@ -1,11 +1,22 @@
+About r-emlassemblyline-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-emlassemblyline-feedstock/blob/main/LICENSE.txt)
+
 About r-emlassemblyline
-=======================
+-----------------------
 
 Home: https://github.com/EDIorg/EMLassemblyline
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-emlassemblyline-feedstock/blob/main/LICENSE.txt)
+Summary: For scientists and data managers to create high quality EML metadata for dataset publication. EMLassemblyline is optimized for automating recurring publications (timeseries or data derived from timeseries sources) but works well for "one-off" publications, especially through the MetaShARK interface. EMLassemblyline prioritizes automated metadata extraction from data objects to minimize required human effort and encourages EML best practices to make publications Findable, Accessible, Interoperable, and Reusable.
+About r-emlassemblyline
+-----------------------
+
+Home: https://github.com/EDIorg/EMLassemblyline
+
+Package license: MIT
 
 Summary: For scientists and data managers to create high quality EML metadata for dataset publication. EMLassemblyline is optimized for automating recurring publications (timeseries or data derived from timeseries sources) but works well for "one-off" publications, especially through the MetaShARK interface. EMLassemblyline prioritizes automated metadata extraction from data objects to minimize required human effort and encourages EML best practices to make publications Findable, Accessible, Interoperable, and Reusable.
 
@@ -27,13 +38,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18006&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-emlassemblyline-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18006&branchName=main">
@@ -41,10 +45,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18006&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-emlassemblyline-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-emlassemblyline-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -52,6 +56,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18006&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-emlassemblyline-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18006&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-emlassemblyline-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
