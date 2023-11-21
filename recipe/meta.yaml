@@ -1,4 +1,4 @@
-{% set version = '3.5.5-dev' %}
+{% set version = '3.5.5' %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -7,12 +7,12 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  url: https://github.com/yvanlebras/EMLassemblyline/archive/refs/heads/3.5.5-dev.zip
+  url: https://github.com/yvanlebras/EMLassemblyline/archive/refs/heads/{{ version }}-dev.zip
   sha256: 38e5a8fd75f76ad118f4eb89da7fbf604edbeae47dfccb2ba5958ed893756beb
 
 build:
   merge_build_host: true  # [win]
-  number: 0
+  number: 2
   rpaths:
     - lib/R/lib/
     - lib/
