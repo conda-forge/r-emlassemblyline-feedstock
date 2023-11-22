@@ -7,12 +7,12 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  url: https://github.com/EDIorg/EMLassemblyline/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 1596d2b2dc00049103746d9cd563cbc8f36e5b76991c9305b8b2d2905fbfb924
+  url: https://github.com/yvanlebras/EMLassemblyline/archive/refs/tags/dev.tar.gz
+  sha256: e5b93793dcd8535e8f5ac9a7b493d949ce7b3210dc29b2b8feb3c5cd0ea2e8d2
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -38,6 +38,8 @@ requirements:
     - r-tidyr
     - r-uuid
     - r-xml2
+    - r-terra
+    - r-ncdf4
   run:
     - r-base
     - r-bit64
@@ -55,6 +57,8 @@ requirements:
     - r-tidyr
     - r-uuid
     - r-xml2
+    - r-terra
+    - r-ncdf4
 
 test:
   commands:
