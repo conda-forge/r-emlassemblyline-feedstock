@@ -7,12 +7,12 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  url: https://github.com/yvanlebras/EMLassemblyline/archive/refs/heads/{{ version }}-dev.zip
-  sha256: 38e5a8fd75f76ad118f4eb89da7fbf604edbeae47dfccb2ba5958ed893756beb
+  url: https://github.com/yvanlebras/EMLassemblyline/archive/refs/tags/dev.tar.gz
+  sha256: e5b93793dcd8535e8f5ac9a7b493d949ce7b3210dc29b2b8feb3c5cd0ea2e8d2
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
