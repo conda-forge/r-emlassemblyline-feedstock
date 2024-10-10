@@ -1,6 +1,5 @@
 {% set version = '3.5.5' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-emlassemblyline
@@ -11,8 +10,7 @@ source:
   sha256: 1596d2b2dc00049103746d9cd563cbc8f36e5b76991c9305b8b2d2905fbfb924
 
 build:
-  merge_build_host: true  # [win]
-  number: 1
+  number: 2
   rpaths:
     - lib/R/lib/
     - lib/
