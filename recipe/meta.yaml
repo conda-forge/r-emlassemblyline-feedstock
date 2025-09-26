@@ -32,7 +32,7 @@ requirements:
     - r-rmarkdown
     - r-stringr
     - r-stringi
-    - r-taxonomycleanr >=1.6.2
+    - r-taxonomycleanr >=1.6.7
     - r-tidyr
     - r-uuid
     - r-xml2
@@ -49,7 +49,7 @@ requirements:
     - r-rmarkdown
     - r-stringr
     - r-stringi
-    - r-taxonomycleanr >=1.6.2
+    - r-taxonomycleanr >=1.6.7
     - r-tidyr
     - r-uuid
     - r-xml2
